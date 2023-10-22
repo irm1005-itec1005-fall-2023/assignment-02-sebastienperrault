@@ -5,15 +5,133 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;
+  background: white;
+  justify-content: row;
+  align-items: row;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
-  text-align: center;
+  text-align: row;
   color: #023047;
+}
+
+header {
+  padding: 2rem 1rem;
+  background-color: cornflowerblue;
+  color: black;
+}
+
+main{
+  align-self: center;
+  min-width: 500px;
+  padding: 3rem;
+  margin: 1rem;
+  background: linear-gradient(to bottom,#aa5dcf, #ff935f);
+  color: #f1faee;
+  box-shadow: #315a72 0px 8px 40px;
+}
+
+footer{
+  padding: 2rem 1rem;
+  background-color: cornflowerblue;
+  color: black;
+}
+
+main .container {
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  background-color: #ff99c8;
+  color: #f1faee;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+  display: flex;
+}
+
+main .Table-content {
+  background-color: #fcf6bd;
+  color: black;
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+}
+
+main .GP{
+  background-color: #d0f4de;
+  color: black;
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+}
+
+
+main .arch{
+  background-color: #a9def9;
+  color: black;
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+}
+
+
+
+main .SR {
+  background-color: #e4c1f9;
+  color: black;
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+}
+
+main .FBF {
+  background-color: #b8c0ff;
+  color: black;
+  align-self: center;
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: #315a72 1px 3px 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+thead {
+	background-color: #333;
+	color: white;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+tbody{
+  background-color: #f1faee;
+  color: black;
+}
+
+fieldset{
+  background-color: #f1faee;
+  color: black;
 }
